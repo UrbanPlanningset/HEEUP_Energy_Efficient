@@ -11,7 +11,7 @@ pois_df = pd.read_json('Miami.json', orient='records', lines=True)
 # Defining the latitude and longitude bounds
 lat_min, lat_max = 25.7575, 25.8947
 lon_min, lon_max = -80.3581, -80.1868
-# Defining 16 random types for POIs
+# Defining 16 types for POIs
 poi_types = [
     0,
     1,
